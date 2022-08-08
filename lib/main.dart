@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:instagram_clone/pages/ProfilePage.dart';
+import 'package:instagram_clone/section5/HttpGetWithListView.dart';
+import 'section5/HttpGet.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
 
-      home:ProfilePage(),
+      home:BelajarGetData(),
     );
   }
 }
